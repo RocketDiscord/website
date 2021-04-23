@@ -1,0 +1,25 @@
+body
+{
+    background: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content a
+{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background: blue;
+    text-align: center;
+    transition: all 0.2s;
+}
+.content a:hover 
+{
+    background-color: #4095c6;
+}

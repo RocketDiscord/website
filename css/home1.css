@@ -1,0 +1,95 @@
+html
+{
+    height: 500px;
+    width: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 500ms;
+    scrollbar-shadow-color: black;
+}
+body
+{
+    background: grey;
+}
+body img
+{
+    position: relative;
+    border-radius: 50px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+body img:hover
+{
+    transform: rotate(360deg);
+}
+body p
+{
+    font-size: 20px;
+}
+a.invitebutton{
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background: blue;
+    text-align: center;
+    transition: all 0.2s;
+}
+a.invitebutton:hover
+{
+    background-color: #4095c6;
+}
+a.supportbutton:hover
+{
+    background-color: #4095c6;
+}
+a.supportbutton{
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background: blue;
+    text-align: center;
+    transition: all 0.2s;
+}
+.theteam
+{
+    padding: 200px;
+}
+.feutures .mod
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.features
+{
+    padding: 200px;
+}
+footer
+{
+    width: 50cm;
+    height: 90px;
+    background-color: darkgrey;
+    text-align: center;
+    width: 49cm;
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.updates
+{
+    padding: 200px;
+}
